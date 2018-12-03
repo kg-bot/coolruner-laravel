@@ -1,0 +1,30 @@
+{
+    "name": "danncoba/laravel-coolrunner",
+    "description": "Coolrunner API Wrapper for Laravel Framework",
+    "authors": [
+      {
+        "name": "Danijel Djuric",
+        "email": "dadodju@gmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=7.1",
+      "laravel/framework": "^5.5",
+      "guzzlehttp/guzzle": "^6.3.3",
+      "ext-json": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Coolrunner\\": "src/"
+      }
+    },
+    "extra":{
+      "laravel":{
+        "providers":[
+          "Coolrunner\\CoolrunnerServiceProvider"
+        ]
+      }
+    }
+  }
+  
